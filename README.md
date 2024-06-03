@@ -32,8 +32,11 @@ d) Colunas do extrato:
     ii) Hora no formato hh:mm:ss;
    iii) Descrição "DEPOSITO" ou "SAQUE";
     iv) Valor no formato 9999999.99 podendo suportar até um milhão de reais;
+     v) Operação: 
+        "D" identificando os SAQUES;
+        "C" identificando os DEPÓSITOS;
      v) Ao final do extrato deve ser exibido a mensagem "SALDO ATUAL" seguido do
-        do símbolo da moeda e o valor do saldo atual da conta;
+        do símbolo da moeda o valor do saldo atual da conta;
 e) Deverá ser utilizado uma constante para simbolizar a moeda utilizada;
 
      
